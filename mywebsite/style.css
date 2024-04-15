@@ -1,17 +1,17 @@
 /* this is a css style sheet, the syntax for a comment in CSS is different because it's a separate language to HTML */
 /* below I am calling all the different HTML elements that I have used in the page and describing how it should be rendered on screen within the {curly brackets}. */
 body {
-    background: black;
+    background: rgba(255, 134, 116, 0.956);
     color: azure;
 }
 
 h1 {
-    color: aqua;
+    color: rgb(38, 255, 0);
     text-align: center;
 }
 
 h2 {
-    color: blueviolet;
+    color: rgb(0, 225, 225);
 }
 
 p {
