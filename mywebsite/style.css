@@ -1,12 +1,12 @@
 /* this is a css style sheet, the syntax for a comment in CSS is different because it's a separate language to HTML */
 /* below I am calling all the different HTML elements that I have used in the page and describing how it should be rendered on screen within the {curly brackets}. */
 body {
-    background: rgba(239, 255, 159, 0.483);
+    background: rgba(109, 109, 105, 0.629);
     color: azure;
 }
 
 h1 {
-    color: rgb(38, 255, 0);
+    color: rgb(143, 231, 128);
     text-align: center;
 }
 
@@ -15,7 +15,7 @@ h2 {
 }
 
 p {
-    color: rgb(255, 106, 186);
+    color: rgb(82, 27, 104);
 }
 
 footer {
@@ -32,6 +32,6 @@ h3{
     color:blueviolet
 }
 .box1 {
-    border: thick double hotpink;
+    border: thick double rgb(105, 255, 223);
     padding: 1em;
 }
