@@ -1,21 +1,23 @@
 /* this is a css style sheet, the syntax for a comment in CSS is different because it's a separate language to HTML */
 /* below I am calling all the different HTML elements that I have used in the page and describing how it should be rendered on screen within the {curly brackets}. */
 body {
-    background: rgba(109, 109, 105, 0.629);
+    background: rgba(0, 0, 0, 0.801);
+    background-size: cover;
+    background-image: url(assets/fairys/scary\ 4.jpeg);
     color: azure;
 }
 
 h1 {
-    color: rgb(143, 231, 128);
+    color: rgb(255, 62, 62);
     text-align: center;
 }
 
 h2 {
-    color: rgb(0, 225, 225);
+    color: rgb(255, 33, 104);
 }
 
 p {
-    color: rgb(82, 27, 104);
+    color: rgb(205, 205, 205);
 }
 
 footer {
@@ -25,13 +27,17 @@ footer {
 
 /* to call a class put a . before its name */
 .newacronym{
-    color: aquamarine;
+    color: rgb(223, 223, 223);
 }
 
 h3{
-    color:blueviolet
+    color:rgb(193, 0, 0)
 }
 .box1 {
-    border: thick double rgb(105, 255, 223);
+    border: thick double rgb(255, 56, 56);
+    padding: 1em;
+}
+.box2 {
+    border: thick double rgb(255, 12, 12);
     padding: 1em;
 }
