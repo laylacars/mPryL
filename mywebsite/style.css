@@ -2,11 +2,14 @@
 /* below I am calling all the different HTML elements that I have used in the page and describing how it should be rendered on screen within the {curly brackets}. */
 body {
     background: rgba(109, 109, 105, 0.629);
+    background-image:url(assets/stars.jpeg);
+    background-size: cover;
+
     color: azure;
 }
 
 h1 {
-    color: rgb(143, 231, 128);
+    color: rgb(245, 255, 244);
     text-align: center;
 }
 
@@ -15,7 +18,8 @@ h2 {
 }
 
 p {
-    color: rgb(82, 27, 104);
+    color: rgb(250, 238, 255);
+    text-align: center;
 }
 
 footer {
@@ -25,13 +29,20 @@ footer {
 
 /* to call a class put a . before its name */
 .newacronym{
-    color: aquamarine;
+    color: rgb(233, 245, 241);
 }
 
 h3{
-    color:blueviolet
+    color:rgb(238, 224, 251)
 }
 .box1 {
     border: thick double rgb(105, 255, 223);
+    color: aliceblue;
     padding: 1em;
+}
+.first{
+    text-align: center;
+}
+.second{
+    text-align: center;
 }
