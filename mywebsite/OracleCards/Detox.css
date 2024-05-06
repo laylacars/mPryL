@@ -1,0 +1,13 @@
+body {
+    background: rgba(0, 0, 0, 0.801);
+    background-size: cover;
+    background-image: url(detox.png);
+    position: absolute;
+    z-index: -1;
+}
+h1 {
+    color: aliceblue;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
